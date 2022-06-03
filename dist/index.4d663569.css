@@ -1,0 +1,67 @@
+@import "https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap";
+header {
+  width: 500px;
+  height: 150px;
+  border: 75px solid #0000;
+  border-image: url("ingredientspict.2a73a76d.jpeg") 10%;
+  flex-flow: column;
+  padding: 100px;
+  display: flex;
+}
+
+h1 {
+  color: #12464fe6;
+  font-family: Outfit, sans-serif;
+  font-size: 25px;
+}
+
+ul {
+  background-color: #3f5a4f33;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 30px;
+  list-style-type: none;
+  display: flex;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#recipe-search {
+  width: 250px;
+  text-transform: uppercase;
+  background-color: gold;
+  border: 1px solid #dc143c;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-family: Bahnschrift;
+  font-size: 15px;
+}
+
+#recipe-search:focus {
+  color: red;
+}
+
+.recipe {
+  width: 25%;
+}
+
+.recipeImage {
+  width: 100%;
+}
+
+.ul {
+  width: 100%;
+  border: 5px solid #dc143c;
+  flex-flow: wrap;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
